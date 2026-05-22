@@ -172,7 +172,7 @@ img { display: block; max-width: 100%; }
 .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: center; position: relative; }
 .hero-eyebrow { font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); margin-bottom: 20px; }
 .hero h1 { font-size: clamp(2.4rem, 5vw, 3.8rem); margin-bottom: 20px;color: var(--ink); }
-.hero h1 em { color: var(--bark); font-style: italic; }
+.hero h1 em { color: var(--clay); font-style: italic; }
 .hero p { font-size: 17px; color: var(--ink); margin-bottom: 36px; max-width: 480px; }
 .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
 .hero-visual {
@@ -495,7 +495,7 @@ footer {
   .detail-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .nav-links { display: none; }
-  .hamburger { display: block; }
+  /* .hamburger { display: block; } */
   .filter-inner { flex-direction: column; align-items: flex-start; }
   .form-row { grid-template-columns: 1fr; }
 }
@@ -548,6 +548,9 @@ footer {
     font-size: 2rem;
     line-height: 1.2;
   }
+  .hero h1 em {
+    color: var(--ink);
+  }
 
   .hero p {
     font-size: 14px;
@@ -597,10 +600,13 @@ footer {
   }
 
   /* ABOUT US */
+  #why-us {
+    padding: 40px 28px;
+  }
   #abts {
     font-size: 14px;
     line-height: 1.6;
-    text-align: left;
+    text-align: justify;
   }
 
   /* CONTACT STRIP */
