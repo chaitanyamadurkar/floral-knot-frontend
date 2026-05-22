@@ -172,7 +172,7 @@ img { display: block; max-width: 100%; }
 .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: center; position: relative; }
 .hero-eyebrow { font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); margin-bottom: 20px; }
 .hero h1 { font-size: clamp(2.4rem, 5vw, 3.8rem); margin-bottom: 20px;color: var(--ink); }
-.hero h1 em { color: var(--clay); font-style: italic; }
+.hero h1 em { color: var(--bark); font-style: italic; }
 .hero p { font-size: 17px; color: var(--ink); margin-bottom: 36px; max-width: 480px; }
 .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
 .hero-visual {
@@ -515,21 +515,23 @@ footer {
 
   /* NAVBAR */
   .nav-inner {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 12px;
   }
 
-  .nav-links {
+  #social-links {
     display: none; /* hide menu for now (no JS) */
   }
 
   .nav-cart-btn {
-    width: 40%;
+    width: 20%;
+    height: 56%;
     justify-content: center;
+    font-size: 12px;
   }
 
   .nav-logo img {
-    height: 42px;
+    height: 60px;
   }
 
   /* HERO */
@@ -562,10 +564,12 @@ footer {
 
   /* FEATURE STRIP (HANDMADE / ECO / GIFT) */
   .feature-strip {
+    display: none; /* hide for now, as it may require layout adjustments */
     flex-direction: column;
     align-items: stretch;
     padding: 16px;
     gap: 16px;
+    margin: 0 auto -10px;
   }
 
   .feature-item {
