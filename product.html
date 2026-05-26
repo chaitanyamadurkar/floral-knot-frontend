@@ -12,16 +12,15 @@
 <nav class="navbar">
   <div class="container nav-inner">
     <a class="nav-logo" href="index.html"> <span><img src="./assets/logo.png" alt="Floral Knot "></span></a>
-    <ul class="nav-links">
+    <ul class="nav-links" >
       <li><a href="index.html" class="active">Home</a></li>
       <li><a href="products.html">Shop</a></li>
       <li><a href="#why-us">About</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <ul class="nav-links">
-      <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-      <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-      <li><a href=""><i class="fa-brands fa-bluesky"></i></a></li>
+    <ul class="nav-social">
+      <li><a href="https://www.instagram.com/d.floral.knot_/"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="mailto:dfloralknot@gmail.com"><i class="fa-brands fa-bluesky"></i></a></li>
     </ul>
     <button class="nav-cart-btn" onclick="location.href='products.html'"><i class="fa-solid fa-basket-shopping"></i> Shop Now</button>
     
@@ -47,6 +46,7 @@
   </div>
 </section>
 
+
 <footer>
   <div class="container">
     <div class="footer-grid">
@@ -59,6 +59,7 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="products.html">Shop</a></li>
+          <li><a href="refund.html">Refund & Cancellation Policy</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -154,6 +155,10 @@ function renderProduct(p) {
           <p style="text-align:center;font-size:13px;color:var(--muted);margin-top:12px">
             📞 We'll call to confirm your order within 24 hours
           </p>
+          <strong style="color:red;font-size:14px ; list-style:none; text-align:center; display:block; margin-top:8px">
+            
+            <li><a href="refund.html">Please read our refund and cancellation policy before placing an order.</a></li>
+          </strong>
         </div>
         ` : `
         <div style="padding:24px;background:var(--parchment);border-radius:var(--radius);text-align:center">
